@@ -28,7 +28,7 @@ if st.button("Gerar QRCode"):
         img.save(buf, format="PNG")
         buf.seek(0)
 
-        st.image(buf, caption="Seu QRCode está pronto",width=200)
+        st.image(buf, caption="Seu QRCode está pronto",width=400)
 
         st.download_button(
             label="📥 Baixar QRCode",
